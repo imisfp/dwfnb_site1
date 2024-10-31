@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
-html > body {
+body {
   font-family: "Pretendard Variable", sans-serif;
+  background-color: #e5e5e5;
+}
+.con {
+  max-width: 1440px;
 }
