@@ -11,3 +11,7 @@ body {
 .con {
   max-width: 1440px;
 }
+.swiper {
+  max-width: 1440px;
+  height: 760px;
+}
