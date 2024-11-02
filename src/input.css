@@ -11,3 +11,8 @@ body {
 .con {
   max-width: 1440px;
 }
+
+.pc-main-swiper {
+  max-width: 1440px;
+  height: 760px;
+}

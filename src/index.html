@@ -13,6 +13,16 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     />
+    <script src="script/jquery.min.js"></script>
+
+    <!-- 스와이퍼 불러오기 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script defer src="script/script.js"></script>
   </head>
   <body>
     <!-- PC 탑바 -->
@@ -157,6 +167,56 @@
         </div>
       </div>
     </div>
-    
+
+    <!-- PC 메인 슬라이더 -->
+    <div class="pc-main-swiper rounded-[20px] mt-10 mx-auto overflow-hidden">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div
+          class="swiper-slide bg-center relative whitespace-nowrap bg-blend-lighten"
+          style="
+            background-image: url(https://github.com/imisfp/dwfnb_site1/blob/main/copy/donwon_fnb/img/main-swiper-1.png?raw=true);
+          "
+        >
+          <div class="absolute top-[6%] left-[5%]">
+            <div class="block text-[48px] font-semibold text-white realtive">
+              <span class="relative z-10">신선함을 담아, 건강을 전합니다.</span>
+              <div
+                class="hl-box bg-[#FF8400] h-[49px] w-[125px] absolute top-[11%]"
+              ></div>
+              <div
+                class="hl-box bg-[#FF8400] h-[49px] w-[84px] absolute top-[11%] right-[38.6%]"
+              ></div>
+            </div>
+            <div class="block px-1 mt-1 text-[19px]">
+              정직한 제조, 건강한 선택을 위한 믿을 수 있는 품질을 제공하는 동원
+              F&B
+            </div>
+          </div>
+          <div
+            class="w-full h-[15%] bg-gradient-to-b from-[#333333] opacity-10"
+          ></div>
+        </div>
+
+        <div
+          class="swiper-slide bg-[left_bottom_35%] bg-[30%] relative whitespace-nowrap"
+          style="
+            background-image: url(https://github.com/imisfp/dwfnb_site1/blob/main/copy/donwon_fnb/img/main-swiper-2.png?raw=true);
+          "
+        >
+          <div class="absolute top-[50%] -translate-y-1/2 left-[5%] text-white">
+            <div class="font-medium">
+              <span class="text-[#B0D4AD] text-[48px]">Better Future</span>
+              <span class="text-[48px] ml-2">with Dongwon</span>
+            </div>
+            <div class="text-[20px] font-light tracking-wide">
+              사람과 지구를 생각하는 지속 가능한 미래를 만들어갑니다.
+            </div>
+          </div>
+          <div class="w-full h-full bg-gradient-to-b from-[#F6F5F130]"></div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
