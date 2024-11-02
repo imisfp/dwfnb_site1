@@ -1,4 +1,4 @@
-const swiper = new Swiper(".swiper", {
+const swiper = new Swiper(".pc-main-swiper", {
   effect: "fade", // 페이드 효과
   fadeEffect: {
     crossFade: true, // 슬라이드 간 크로스 페이드
