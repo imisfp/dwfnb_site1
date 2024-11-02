@@ -726,6 +726,10 @@ video {
   gap: 0.25rem;
 }
 
+.overflow-hidden{
+  overflow: hidden;
+}
+
 .whitespace-nowrap{
   white-space: nowrap;
 }
@@ -941,7 +945,7 @@ body {
   max-width: 1440px;
 }
 
-.swiper {
+.pc-main-swiper {
   max-width: 1440px;
   height: 760px;
 }
