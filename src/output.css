@@ -622,6 +622,10 @@ video {
   left: 5%;
 }
 
+.left-\[50\%\]{
+  left: 50%;
+}
+
 .right-\[38\.6\%\]{
   right: 38.6%;
 }
@@ -634,20 +638,16 @@ video {
   top: 50%;
 }
 
+.top-\[54\%\]{
+  top: 54%;
+}
+
 .top-\[6\%\]{
   top: 6%;
 }
 
 .top-\[84px\]{
   top: 84px;
-}
-
-.left-\[50\%\]{
-  left: 50%;
-}
-
-.top-\[54\%\]{
-  top: 54%;
 }
 
 .-z-10{
@@ -719,6 +719,10 @@ video {
   height: 210px;
 }
 
+.h-\[280px\]{
+  height: 280px;
+}
+
 .h-\[49px\]{
   height: 49px;
 }
@@ -729,10 +733,6 @@ video {
 
 .h-full{
   height: 100%;
-}
-
-.h-\[280px\]{
-  height: 280px;
 }
 
 .w-\[125px\]{
@@ -791,13 +791,13 @@ video {
   flex-grow: 1;
 }
 
-.-translate-y-1\/2{
-  --tw-translate-y: -50%;
+.-translate-x-1\/2{
+  --tw-translate-x: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.-translate-x-1\/2{
-  --tw-translate-x: -50%;
+.-translate-y-1\/2{
+  --tw-translate-y: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -829,6 +829,10 @@ video {
   white-space: nowrap;
 }
 
+.rounded-\[10px\]{
+  border-radius: 10px;
+}
+
 .rounded-\[20px\]{
   border-radius: 20px;
 }
@@ -837,20 +841,16 @@ video {
   border-radius: 30px;
 }
 
-.rounded-\[10px\]{
-  border-radius: 10px;
-}
-
 .border{
   border-width: 1px;
 }
 
-.border-\[2px\]{
-  border-width: 2px;
-}
-
 .border-\[1\.5px\]{
   border-width: 1.5px;
+}
+
+.border-\[2px\]{
+  border-width: 2px;
 }
 
 .border-t-\[1px\]{
@@ -872,14 +872,14 @@ video {
   background-color: rgb(255 132 0 / var(--tw-bg-opacity, 1));
 }
 
-.bg-white{
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
-}
-
 .bg-\[\#FFF8ED\]{
   --tw-bg-opacity: 1;
   background-color: rgb(255 248 237 / var(--tw-bg-opacity, 1));
+}
+
+.bg-white{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
 .bg-gradient-to-b{
@@ -925,9 +925,19 @@ video {
   padding-right: 0.75rem;
 }
 
+.px-4{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .px-5{
   padding-left: 1.25rem;
   padding-right: 1.25rem;
+}
+
+.px-8{
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .py-1{
@@ -948,16 +958,6 @@ video {
 .py-5{
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
-}
-
-.px-4{
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.px-8{
-  padding-left: 2rem;
-  padding-right: 2rem;
 }
 
 .py-8{
@@ -993,16 +993,16 @@ video {
   font-size: 20px;
 }
 
-.text-\[48px\]{
-  font-size: 48px;
-}
-
 .text-\[28px\]{
   font-size: 28px;
 }
 
 .text-\[30px\]{
   font-size: 30px;
+}
+
+.text-\[48px\]{
+  font-size: 48px;
 }
 
 .font-light{
@@ -1026,9 +1026,19 @@ video {
   color: rgb(51 51 51 / var(--tw-text-opacity, 1));
 }
 
+.text-\[\#656565\]{
+  --tw-text-opacity: 1;
+  color: rgb(101 101 101 / var(--tw-text-opacity, 1));
+}
+
 .text-\[\#B0D4AD\]{
   --tw-text-opacity: 1;
   color: rgb(176 212 173 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#FF8400\]{
+  --tw-text-opacity: 1;
+  color: rgb(255 132 0 / var(--tw-text-opacity, 1));
 }
 
 .text-\[\#ff8400\]{
@@ -1039,16 +1049,6 @@ video {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.text-\[\#656565\]{
-  --tw-text-opacity: 1;
-  color: rgb(101 101 101 / var(--tw-text-opacity, 1));
-}
-
-.text-\[\#FF8400\]{
-  --tw-text-opacity: 1;
-  color: rgb(255 132 0 / var(--tw-text-opacity, 1));
 }
 
 .opacity-0{
@@ -1272,14 +1272,14 @@ body {
 .news-swiper .swiper-wrapper .news-1 > .social-img-box {
   width: 100%;
   height: 100%;
-  background: url(https://github.com/imisfp/dwfnb_site1/blob/main/copy/donwon_fnb/img/dw_so_img/news/new1.jpg?raw=true)
+  background: url(/copy/donwon_fnb/image/dw_so_img/news/new1.jpg)
     no-repeat center/cover;
 }
 
 .news-swiper .swiper-wrapper .news-2 > .social-img-box {
   width: 100%;
   height: 100%;
-  background: url(https://github.com/imisfp/dwfnb_site1/blob/main/copy/donwon_fnb/img/dw_so_img/news/new2.jpg?raw=true)
+  background: url(/copy/donwon_fnb/image/dw_so_img/news/new2.jpg)
     no-repeat center/cover;
   background-position-y: 64%;
 }
@@ -1287,7 +1287,7 @@ body {
 .news-swiper .swiper-wrapper .news-3 > .social-img-box {
   width: 100%;
   height: 100%;
-  background: url(https://github.com/imisfp/dwfnb_site1/blob/main/copy/donwon_fnb/img/dw_so_img/news/new3.jpg?raw=true)
+  background: url(/copy/donwon_fnb/image/dw_so_img/news/new3.jpg)
     no-repeat center/cover;
   background-position-y: 65%;
 }
@@ -1418,7 +1418,7 @@ body {
   display: flex;
   width: 180px;
   height: 63px;
-  background: url(https://github.com/imisfp/dwfnb_site1/blob/main/copy/donwon_fnb/img/dw-PC-logo.png?raw=true)
+  background: url(/copy/donwon_fnb/image/dw-PC-logo.png)
     center/cover no-repeat;
 }
 
@@ -1433,7 +1433,7 @@ body {
   width: 97px;
   height: 45px;
   margin-bottom: 3px;
-  background: url(https://www.dongwonfnb.com/Images/Common/ban_site_dongwonMall.gif)
+  background: url(/copy/donwon_fnb/image/footer_img/dongwonMall.gif)
     center no-repeat;
 }
 
@@ -1563,22 +1563,22 @@ body {
 }
 
 .pc-f-box.box-2 > .box-2-right > .youtube {
-  background: url(https://github.com/imisfp/dwfnb_site1/blob/main/copy/donwon_fnb/img/footer_img/sns_icon/ico_sns_youtube.png?raw=true)
+  background: url(/copy/donwon_fnb/image/footer_img/sns_icon/ico_sns_youtube.png)
     center/cover no-repeat;
 }
 
 .pc-f-box.box-2 > .box-2-right > .blog {
-  background: url(https://github.com/imisfp/dwfnb_site1/blob/main/copy/donwon_fnb/img/footer_img/sns_icon/ico_sns_blog.png?raw=true)
+  background: url(/copy/donwon_fnb/image/footer_img/sns_icon/ico_sns_blog.png)
     center/cover no-repeat;
 }
 
 .pc-f-box.box-2 > .box-2-right > .facebook {
-  background: url(https://github.com/imisfp/dwfnb_site1/blob/main/copy/donwon_fnb/img/footer_img/sns_icon/ico_sns_facebook.png?raw=true)
+  background: url(/copy/donwon_fnb/image/footer_img/sns_icon/ico_sns_facebook.png)
     center/cover no-repeat;
 }
 
 .pc-f-box.box-2 > .box-2-right > .insta {
-  background: url(https://github.com/imisfp/dwfnb_site1/blob/main/copy/donwon_fnb/img/footer_img/sns_icon/ico_sns_instagram.png?raw=true)
+  background: url(/copy/donwon_fnb/image/footer_img/sns_icon/ico_sns_instagram.png)
     center/cover no-repeat;
 }
 
