@@ -218,6 +218,7 @@ img {
 }
 .mo_brand-contents .br_contents1 .mo_brand_his .mo_br_h_logo > img {
   max-width: 156px;
+  margin: 20px auto 40px;
 }
 
 .mo_brand-contents .br_contents1 .mo_brand_his .mo_br_h_texts {
@@ -463,6 +464,7 @@ img {
   /* border: 1px solid red; */
   margin: 13px 0;
 }
+
 .mo_brand-contents .br_contents2 .mo_brand_his {
   padding-top: 20px;
   padding-bottom: 10px;
