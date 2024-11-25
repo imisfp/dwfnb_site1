@@ -47,6 +47,9 @@ body {
   background-color: white;
   color: #333;
 }
+img {
+  object-fit: cover;
+}
 .con {
   max-width: 1440px;
 }
