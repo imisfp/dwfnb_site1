@@ -50,13 +50,14 @@ body {
 .con {
   max-width: 1440px;
 }
-/* PC 메인 스와이퍼 커스텀 */
-.pc-main-swiper {
+/* PC 메인 스와이퍼 커스텀
+.pc-main-swiper-box {
   max-width: 1440px;
-  height: 760px;
-}
+  margin-left: auto; margin-right: auto;
+} */
 
 /* PC 동원소식 커스텀 */
+
 .dw-social {
   margin-top: 20px;
 }
@@ -150,21 +151,20 @@ body {
 .news-swiper .swiper-wrapper .news-1 > .social-img-box {
   width: 100%;
   height: 100%;
-  background: url(/copy/donwon_fnb/image/dw_so_img/news/new1.jpg)
-    no-repeat center/cover;
+  display: flex; justify-content: center;
 }
 .news-swiper .swiper-wrapper .news-2 > .social-img-box {
+  display: flex; align-items: center;
+}
+.news-swiper .swiper-wrapper .news-2 > .social-img-box > img {
   width: 100%;
-  height: 100%;
-  background: url(/copy/donwon_fnb/image/dw_so_img/news/new2.jpg)
-    no-repeat center/cover;
   background-position-y: 64%;
 }
 .news-swiper .swiper-wrapper .news-3 > .social-img-box {
+  display: flex; align-items: end;
+}
+.news-swiper .swiper-wrapper .news-3 > .social-img-box > img {
   width: 100%;
-  height: 100%;
-  background: url(/copy/donwon_fnb/image/dw_so_img/news/new3.jpg)
-    no-repeat center/cover;
   background-position-y: 65%;
 }
 .dw-social .news-swiper .swiper-pagination {
@@ -198,9 +198,9 @@ body {
   justify-content: space-between;
   padding: 0 4px;
 }
-.media-all-box > ul > li {
-  /*   background-color: pink; */
-}
+/* .media-all-box > ul > li {
+    background-color: pink;
+} */
 .media-all-box li > .media-box {
   /*   border: 1px solid orange; */
   display: block;
@@ -272,8 +272,6 @@ body {
   display: flex;
   width: 180px;
   height: 63px;
-  background: url(/copy/donwon_fnb/image/dw-PC-logo.png)
-    center/cover no-repeat;
 }
 .pc-f-box.box-1 > .box-1-user {
   display: flex;
@@ -285,8 +283,6 @@ body {
   width: 97px;
   height: 45px;
   margin-bottom: 3px;
-  background: url(/copy/donwon_fnb/image/footer_img/dongwonMall.gif)
-    center no-repeat;
 }
 .pc-f-box.box-1 > .box-1-user > .dw-notice {
   display: block;
@@ -394,25 +390,11 @@ body {
   width: 40px;
   height: 40px;
 }
-.pc-f-box.box-2 > .box-2-right > .youtube {
-  background: url(/copy/donwon_fnb/image/footer_img/sns_icon/ico_sns_youtube.png)
-    center/cover no-repeat;
-}
-.pc-f-box.box-2 > .box-2-right > .blog {
-  background: url(/copy/donwon_fnb/image/footer_img/sns_icon/ico_sns_blog.png)
-    center/cover no-repeat;
-}
-.pc-f-box.box-2 > .box-2-right > .facebook {
-  background: url(/copy/donwon_fnb/image/footer_img/sns_icon/ico_sns_facebook.png)
-    center/cover no-repeat;
-}
-.pc-f-box.box-2 > .box-2-right > .insta {
-  background: url(/copy/donwon_fnb/image/footer_img/sns_icon/ico_sns_instagram.png)
-    center/cover no-repeat;
-}
 .pc-f-box.box-3 {
   font-size: 14px;
   color: #ff8400;
   padding: 0 5px;
   padding-bottom: 5px;
 }
+
+

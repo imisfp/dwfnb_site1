@@ -1,0 +1,25 @@
+/* 반응형 */
+.mobile_mainp_top-bar , .mobile_mainp_contents , .mobile_mainp_footer {
+  display: none;
+}
+
+@media (max-width: 1023px) {
+  /* .mo_main-all-box {
+    display: block;
+  } */
+  /* 모바일 메인 탑바 - block
+  모바일 동원 소식 - block
+  모바일 푸터 - block */
+  .mobile_mainp_top-bar , .mobile_mainp_contents , .mobile_mainp_footer {
+    display: block;
+  }
+  /* pc 메인 탑바 - none
+  pc 동원 소식 - none
+  pc footer - none */
+  .pc_mainp_top-bar ,.pc_mainp_dw-social ,.pc_mainp_footer  {
+    display: none;
+  }
+  .pc-main-swiper {
+    margin-top: 84px;
+  }
+}

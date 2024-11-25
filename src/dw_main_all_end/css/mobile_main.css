@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* 프리텐다드 */
+@font-face {
+  font-family: "Pretendard";
+  src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Pretendard";
+  src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Semibold.woff")
+    format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HakgyoansimAllimjangTTF-B";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2408-5@1.0/HakgyoansimAllimjangTTF-B.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.mobile-con {
+  max-width: 1023px;
+  min-width: 393px;
+}
+.m-con {
+  max-width: 1023px;
+  min-width: 393px;
+}
+
+/* .swiper {
+  max-width: 1023px;
+  min-width: 393px;
+} */
+.site-box > ul {
+  display: none;
+}
+
+.site-box.active > ul {
+  display: flex;
+  transform: translatey(-104%);
+}
+
+/* .text-box > .main-text {
+  font-size: clamp(24px, 2vw + 1.5rem, 80px);
+}
+.text-box > .sub-text {
+  font-size: clamp(8px, 1vw + 0.5rem, 24px);
+} */
+
+/* 모바일 사이드바 시작 */
+/* @media (max-width: 1023px) {
+  html.mobile-side-bar-actived,
+  html.mobile-side-bar-actived > body {
+    overflow: hidden;
+  }
+} */
+
+.mobile-side-bar {
+  transition: visibility 0.3s, opacity 0.3s;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.mobile-side-bar.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.mobile-side-bar__content {
+  transform: translateX(100%);
+  transition: transform 0.3s;
+}
+
+.mobile-side-bar.active .mobile-side-bar__content {
+  transform: translateX(0);
+}
+
+.mobile-side-bar__btn-close > div {
+  top: 40%;
+  transform: rotate(-45deg);
+}
+
+.mobile-side-bar__btn-close > div:last-child {
+  transform: rotate(45deg);
+}
+/* 모바일 사이드바 끝 */
+
+/* 모바일 메뉴 박스 1 시작 */
+.mobile-menu-box-1 > ul ul {
+  display: none;
+}
+.mobile-menu-box-1 > ul > li.active > a {
+  background-color: #ff8400;
+}
+
+.mobile-menu-box-1 ul > li.active > a {
+  color: #ff8400;
+}
+
+.mobile-menu-box-1 ul > li.active > ul {
+  display: block;
+}
+
+.mobile-menu-box-1 ul > li > a {
+  display: block;
+  padding: 20px;
+}
+
+.mobile-menu-box-1 ul > li.active > a:not(:only-child) {
+  color: #fff;
+}
+
+.mobile-menu-box-1 ul > li > a::after {
+  float: right;
+}
+
+.mobile-menu-box-1 ul > li > a:not(:only-child)::after {
+  content: "+";
+}
+
+.mobile-menu-box-1 ul > li.active > a:not(:only-child)::after {
+  content: "-";
+}
+
+/* .mobile_mainp_contents .dw-news .news1 a {
+
+} */
